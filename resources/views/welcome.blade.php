@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Virtualizacion
+        </title>
 
         <!-- Fonts -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -20,8 +21,6 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
-                /*background: #252525;*/
-
             }
 
             #containerTitulo{
@@ -61,7 +60,7 @@
             #tipo{
                 margin-right: auto;
                 margin-left: auto;
-                margin-top: 5px;
+
                 height: 100px;
                 width: 90%;
             }
@@ -80,81 +79,87 @@
     <body class="antialiased">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
+
             </div>
         </div>
     </nav>
     <div id="containerTitulo" class="container bg-white mt-4 rounded-3">
-        <div id="principal">Titulo Principal</div>
-        <div id="subTitulo" class="mt-2">Aqui se escribira cualquier tipo de cosa como por ejemplos de que se trata el blog</div>
+        <div id="principal">Virtualizacion</div>
+        <p id="subTitulo" class="mt-2">Utiliza el software para imitar las
+            características del hardware y crear un
+            sistema informático virtual. Esto permite
+            a las organizaciones de TI ejecutar más de
+            un sistema virtual, y múltiples sistemas
+            operativos y aplicaciones, en un solo
+            servidor.
+        </p>
+        <a href="https://www.youtube.com/watch?v=L2wlRkkOIDU" class="btn btn-primary">Video: ¿Qué es la virtualización?</a>
     </div>
 
-    <div class="containerCards">
+    <div class="containerCards mt-2">
         <div class="row">
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title" style="font-family: 'Arial Black'">Ventajas de la Virtualizacion</h5>
+                        <p class="card-text">1) Reduce riegos y costes</p>
+                        <p class="card-text">2) Ofrece la posibilidad de monitorización</p>
+                        <p class="card-text">3) Habilita la migración en caliente de máquinas virtuales</p>
+                        <p class="card-text">4) Mejora los procesos de clonación y copias de seguridad</p>
+                        <a href="https://openwebinars.net/blog/virtualizacion-que-es-para-que-sirve-y-ventajas/" class="btn btn-primary">Mas...</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="https://www.vmware.com/latam/solutions/virtualization.html#:~:text=La%20virtualización%20utiliza%20el%20software,aplicaciones%2C%20en%20un%20solo%20servidor." class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title" style="font-family: 'Arial Black'" >Desventajas de la Virtualizacion</h5>
+                        <p class="card-text">1) En caso de que la empresa sea pequeña, la gran inversión que hay que realizar en software</p>
+                        <p class="card-text">2) El rendimiento de las máquinas virtuales es un poco más bajo</p>
+                        <p class="card-text">3) Algunos proveedores de máquinas virtuales cobran licencias por cada máquina virtual</p>
+                        <p class="card-text">4) Cuando se implementa la virtualización en una empresa es necesario que los administradores sepan utilizar las herramientas</p>
+                        <a href="https://openwebinars.net/blog/virtualizacion-que-es-para-que-sirve-y-ventajas/" class="btn btn-primary">Mas...</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="containerInfo" class="container mt-3 border border-4 rounded-3">
-        <div class="row">
-            <div id="izquierda" class="col">
-                <div id="principalSub">Titulo Principall</div>
-                <p id="subTituloSub">Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de sentencias, para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum generado siempre estará libre de repeticiones, humor agregado o palabras no características del lenguaje, etc.</p>
-            </div>
-            <div id="derecha" class="col">
-                <div id="principalSub">Titulo Principal</div>
-                <p id="subTituloSub">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="tipo" >
-        <div id="principalSub">Titulo</div>
-        <article id="articulo">
-            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+    <div id="tipo">
+        <div id="principalSub">¿Cómo funciona la virtualización?</div>
+        <article id="articulo" class="mb-3">
+            <p>Alta disponibilidad, alto rendimiento y gran capacidad de almacenamiento, son cualidades que caracterizan la virtualización.¿Cómo funciona? La virtualización ejecuta los procesos en una máquina física de otras máquinas virtuales; es decir; consigue que una computadora trabaje como muchas computadoras juntas; ¿de qué manera?: el software o hipervisor separa el sistema operativo de las aplicaciones del hardware. </p>
+            <a href="https://www.vmware.com/latam/solutions/virtualization.html#:~:text=La%20virtualización%20utiliza%20el%20software,aplicaciones%2C%20en%20un%20solo%20servidor." class="btn btn-primary text-center ">Mas...</a>
         </article>
+
+        <div  class="container border border-4 rounded-3 ">
+            <div class="row">
+                <div id="izquierda" class="col">
+                    <div id="principalSub">Tipos de Virtualizacion</div>
+                    <p id="subTituloSub">
+                        1) Virtualización de servidores
+                        <br>
+                        2) Virtualización de redes
+                        <br>
+                        3) Virtualización de almacenamiento
+                        <br>
+                        4) Virtualización de escritorios
+                    </p>
+                    <a href="https://www.administracionderedes.com/virtualizacion/tipos-de-virtualizacion/" class="btn btn-primary">Mas...</a>
+                </div>
+                <div id="derecha" class="col">
+                    <div id="principalSub">Historia de la virtualización</div>
+                    <p id="subTituloSub">Aunque la virtualización data de la década de los sesenta, comenzó a adoptarse más ampliamente a principios del año 2000. Las tecnologías que posibilitaron la virtualización, como los hipervisores, se desarrollaron hace muchas décadas para permitir que varios usuarios accedieran simultáneamente a computadoras que realizaban procesamiento por lotes. El procesamiento por lotes era un tipo de informática popular en el ámbito empresarial que ejecutaba tareas rutinarias miles de veces y muy rápidamente (como las nóminas).</p>
+                    <a href="https://www.redhat.com/es/topics/virtualization/what-is-virtualization" class="btn btn-primary">Mas...</a>
+                </div>
+            </div>
+        </div>
     </div>
+
     </body>
 </html>
