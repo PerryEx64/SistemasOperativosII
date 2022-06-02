@@ -79,7 +79,7 @@
     <body class="antialiased">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="#">Grupo No.1 Sistemas Operativos II</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -89,7 +89,7 @@
         </div>
     </nav>
     <div id="containerTitulo" class="container bg-white mt-4 rounded-3">
-        <div id="principal">Virtualizacion</div>
+        <div id="principal">Virtualización</div>
         <p id="subTitulo" class="mt-2">Utiliza el software para imitar las
             características del hardware y crear un
             sistema informático virtual. Esto permite
@@ -106,7 +106,7 @@
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h5 class="card-title" style="font-family: 'Arial Black'">Ventajas de la Virtualizacion</h5>
+                        <h5 class="card-title" style="font-family: 'Arial Black'">Ventajas de la Virtualización</h5>
                         <p class="card-text">1) Reduce riegos y costes</p>
                         <p class="card-text">2) Ofrece la posibilidad de monitorización</p>
                         <p class="card-text">3) Habilita la migración en caliente de máquinas virtuales</p>
@@ -118,7 +118,7 @@
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h5 class="card-title" style="font-family: 'Arial Black'" >Desventajas de la Virtualizacion</h5>
+                        <h5 class="card-title" style="font-family: 'Arial Black'" >Desventajas de la Virtualización</h5>
                         <p class="card-text">1) En caso de que la empresa sea pequeña, la gran inversión que hay que realizar en software</p>
                         <p class="card-text">2) El rendimiento de las máquinas virtuales es un poco más bajo</p>
                         <p class="card-text">3) Algunos proveedores de máquinas virtuales cobran licencias por cada máquina virtual</p>
@@ -131,7 +131,7 @@
     </div>
 
     <div id="tipo">
-        <div id="principalSub">¿Cómo funciona la virtualización?</div>
+        <div id="principalSub">¿Cómo funciona la Virtualización?</div>
         <article id="articulo" class="mb-3">
             <p>Alta disponibilidad, alto rendimiento y gran capacidad de almacenamiento, son cualidades que caracterizan la virtualización.¿Cómo funciona? La virtualización ejecuta los procesos en una máquina física de otras máquinas virtuales; es decir; consigue que una computadora trabaje como muchas computadoras juntas; ¿de qué manera?: el software o hipervisor separa el sistema operativo de las aplicaciones del hardware. </p>
             <a href="https://www.vmware.com/latam/solutions/virtualization.html#:~:text=La%20virtualización%20utiliza%20el%20software,aplicaciones%2C%20en%20un%20solo%20servidor." class="btn btn-primary text-center ">Mas...</a>
@@ -140,7 +140,7 @@
         <div  class="container border border-4 rounded-3 ">
             <div class="row">
                 <div id="izquierda" class="col">
-                    <div id="principalSub">Tipos de Virtualizacion</div>
+                    <div id="principalSub">Tipos de Virtualización</div>
                     <p id="subTituloSub">
                         1) Virtualización de servidores
                         <br>
@@ -153,13 +153,12 @@
                     <a href="https://www.administracionderedes.com/virtualizacion/tipos-de-virtualizacion/" class="btn btn-primary">Mas...</a>
                 </div>
                 <div id="derecha" class="col">
-                    <div id="principalSub">Historia de la virtualización</div>
+                    <div id="principalSub">Historia de la Virtualización</div>
                     <p id="subTituloSub">Aunque la virtualización data de la década de los sesenta, comenzó a adoptarse más ampliamente a principios del año 2000. Las tecnologías que posibilitaron la virtualización, como los hipervisores, se desarrollaron hace muchas décadas para permitir que varios usuarios accedieran simultáneamente a computadoras que realizaban procesamiento por lotes. El procesamiento por lotes era un tipo de informática popular en el ámbito empresarial que ejecutaba tareas rutinarias miles de veces y muy rápidamente (como las nóminas).</p>
                     <a href="https://www.redhat.com/es/topics/virtualization/what-is-virtualization" class="btn btn-primary">Mas...</a>
                 </div>
             </div>
         </div>
     </div>
-
     </body>
 </html>
